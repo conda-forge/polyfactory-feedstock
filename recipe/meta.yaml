@@ -1,5 +1,5 @@
 {% set name = "polyfactory" %}
-{% set version = "2.20.0" %}
+{% set version = "2.21.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/polyfactory-{{ version }}.tar.gz
-  sha256: 86017160f05332baadb5eaf89885e1ba7bb447a3140e46ba4546848c76cbdec5
+  sha256: a6d8dba91b2515d744cc014b5be48835633f7ccb72519a68f8801759e5b1737a
 
 build:
   noarch: python
