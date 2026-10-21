@@ -1,13 +1,13 @@
 {% set name = "polyfactory" %}
-{% set version = "3.3.0" %}
+{% set version = "3.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/polyfactory-{{ version }}.tar.gz
-  sha256: 237258b6ff43edf362ffd1f68086bb796466f786adfa002b0ac256dbf2246e9a
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/polyfactory-{{ version }}.tar.gz
+  sha256: 78a1e4cf8f317be7da7c111d661f39db35080ec9c12b8df7c01dfbbc1c17250f
 
 build:
   noarch: python
